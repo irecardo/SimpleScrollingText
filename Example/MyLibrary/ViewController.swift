@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import MyLibrary
+
 
 class ViewController: UIViewController {
-
+    
+    //var this = ScrollText()
+    @IBOutlet weak var ScrollingView: ScrollText!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+         ScrollingView.setup(text: "Hello this is just a simple scrolling text. Please fill this with a very long text! I will scroll this text for you my friend! yey!", TextColor: .blue)
     }
 
     override func didReceiveMemoryWarning() {
