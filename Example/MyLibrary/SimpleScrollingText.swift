@@ -54,7 +54,6 @@ class SimpleScrollingText: UIView {
         label.text = labelText
         label.textColor = TextColor ?? UIColor.black
         label.frame = CGRect.zero
-        
         timeInterval = TimeInterval((labelText?.characters.count)! / 5)
         let sizeOfText = label.sizeThatFits(CGSize.zero)
         let textIsTooLong = sizeOfText.width > frame.size.width ? true : false

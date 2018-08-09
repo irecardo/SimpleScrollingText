@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SimpleScrollingText'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SimpleScrollingText.'
+  s.summary          = 'What description you want me to explain in here, cant you just ready the title of the library? or you blind? fckin'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+s.description      = 'heheheheheheheehehehehehehehehehehehehehehehhehehehehehehehaaaaaaasdklasdkasldkadksaldasldksadkasdklsakdlsadklaskdlaskdlasdlaskdlaskdlsakdlsakdlsakdlk'
+  <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
@@ -25,14 +26,15 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'OG' => 'og@mail.com' }
-  s.source           = { :git => 'https://github.com/irecardo/SimpleScrollingText.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/irecardo/SimpleScrollingText.git', :tag => 'master' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.swift_version = '3.2'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MyLibrary/Classes/**/*'
   
-  # s.resource_bundles = {
+  # s.resource_bundles = { s.version.to_s
   #   'MyLibrary' => ['MyLibrary/Assets/*.png']
   # }
 

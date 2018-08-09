@@ -11,7 +11,6 @@
 		23DD3CAA234F74CBB691C5B113DBC748 /* Pods-MyLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8B6B2AEA8BD3E899F4729BAF46179C /* Pods-MyLibrary_Example-dummy.m */; };
 		27BC3B2F0144948884819D1FAD11EC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		48EF905AAD1BF7A228557E4CC5956AAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		733E90700DA0BFD92384289DB000E7F9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD726F4FAD103D78EF642D2A4D02CA /* ReplaceMe.swift */; };
 		7999FA17875FA8312B6101504B6EDEC8 /* Pods-MyLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 863BC1562AF78E37D6BF1E10525B4AEF /* Pods-MyLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A168A462983892F0B0CC786C609ABE54 /* MyLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3010EACDFB1325CCE6D1AEBB9E14DAEB /* MyLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9592E4B211AFDD800516B70 /* SimpleScrollingText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9592E4A211AFDD800516B70 /* SimpleScrollingText.swift */; };
@@ -73,7 +72,6 @@
 		EC9F8940C7805EA2FEA2871F61954C59 /* MyLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLibrary.xcconfig; sourceTree = "<group>"; };
 		F1B56CDBFC9885DD8A497047B9D8A3F2 /* Pods-MyLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F826388C85102CF9319C2DB10B4B061B /* MyLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLibrary-dummy.m"; sourceTree = "<group>"; };
-		FCCD726F4FAD103D78EF642D2A4D02CA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MyLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +185,6 @@
 		7EB34C113112E46AA1FA484D5350551E /* MyLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				FCCD726F4FAD103D78EF642D2A4D02CA /* ReplaceMe.swift */,
 				08014B7374159B040DB859F023EE68B1 /* Pod */,
 				39D2AAFE4FB9A9DB41D74FB0F6C567A0 /* Support Files */,
 			);
@@ -348,7 +345,6 @@
 			files = (
 				A9592E4B211AFDD800516B70 /* SimpleScrollingText.swift in Sources */,
 				CED96E4ADABD0A4A0207E77AC482AE5C /* MyLibrary-dummy.m in Sources */,
-				733E90700DA0BFD92384289DB000E7F9 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
