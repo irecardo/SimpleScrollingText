@@ -1,7 +1,8 @@
 use_frameworks!
 
+source 'https://github.com/irecardo/SimpleScrollingText.git'
 target 'MyLibrary_Example' do
-  pod 'MyLibrary', :path => '../'
+  pod 'MyLibrary', :path => '1.0.1'
 
   target 'MyLibrary_Tests' do
     inherit! :search_paths
