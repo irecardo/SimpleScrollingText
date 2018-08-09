@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'OG' => 'og@mail.com' }
-  s.source           = { :git => 'https://github.com/irecardo/SimpleScrollingText.git', :tag => 'master' }
+  s.source           = { :git => 'https://github.com/irecardo/SimpleScrollingText.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.swift_version = '3.2'
 
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'MyLibrary/Classes/**/*'
   
-  # s.resource_bundles = { s.version.to_s
+  # s.resource_bundles = {
   #   'MyLibrary' => ['MyLibrary/Assets/*.png']
   # }
 
